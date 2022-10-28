@@ -1,0 +1,186 @@
+
+**** Clean-only build of configuration Debug for project 1-GPIO_LED ****
+
+"E:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "1-GPIO_LED.hex"  "1-GPIO_LED.out" 
+DEL /F "main.obj" "bsp\bsp_led.obj" "libs\DSP2833x_ADC_cal.obj" "libs\DSP2833x_Adc.obj" "libs\DSP2833x_CSMPasswords.obj" "libs\DSP2833x_CodeStartBranch.obj" "libs\DSP2833x_CpuTimers.obj" "libs\DSP2833x_DBGIER.obj" "libs\DSP2833x_DMA.obj" "libs\DSP2833x_DefaultIsr.obj" "libs\DSP2833x_DisInt.obj" "libs\DSP2833x_ECan.obj" "libs\DSP2833x_ECap.obj" "libs\DSP2833x_EPwm.obj" "libs\DSP2833x_EQep.obj" "libs\DSP2833x_GlobalVariableDefs.obj" "libs\DSP2833x_Gpio.obj" "libs\DSP2833x_I2C.obj" "libs\DSP2833x_Mcbsp.obj" "libs\DSP2833x_MemCopy.obj" "libs\DSP2833x_PieCtrl.obj" "libs\DSP2833x_PieVect.obj" "libs\DSP2833x_Sci.obj" "libs\DSP2833x_Spi.obj" "libs\DSP2833x_SysCtrl.obj" "libs\DSP2833x_Xintf.obj" "libs\DSP2833x_usDelay.obj" 
+DEL /F "main.d" "bsp\bsp_led.d" "libs\DSP2833x_Adc.d" "libs\DSP2833x_CpuTimers.d" "libs\DSP2833x_DMA.d" "libs\DSP2833x_DefaultIsr.d" "libs\DSP2833x_ECan.d" "libs\DSP2833x_ECap.d" "libs\DSP2833x_EPwm.d" "libs\DSP2833x_EQep.d" "libs\DSP2833x_GlobalVariableDefs.d" "libs\DSP2833x_Gpio.d" "libs\DSP2833x_I2C.d" "libs\DSP2833x_Mcbsp.d" "libs\DSP2833x_MemCopy.d" "libs\DSP2833x_PieCtrl.d" "libs\DSP2833x_PieVect.d" "libs\DSP2833x_Sci.d" "libs\DSP2833x_Spi.d" "libs\DSP2833x_SysCtrl.d" "libs\DSP2833x_Xintf.d" 
+DEL /F "libs\DSP2833x_ADC_cal.d" "libs\DSP2833x_CSMPasswords.d" "libs\DSP2833x_CodeStartBranch.d" "libs\DSP2833x_DBGIER.d" "libs\DSP2833x_DisInt.d" "libs\DSP2833x_usDelay.d" 
+’“≤ªµΩ E:\job\MCU\1-GPIO_LED\Debug\libs\DSP2833x_ADC_cal.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 1-GPIO_LED ****
+
+"E:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../libs/DSP2833x_ADC_cal.asm"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_ADC_cal.d_raw" --obj_directory="libs"  "../libs/DSP2833x_ADC_cal.asm"
+Finished building: "../libs/DSP2833x_ADC_cal.asm"
+ 
+Building file: "../libs/DSP2833x_CSMPasswords.asm"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_CSMPasswords.d_raw" --obj_directory="libs"  "../libs/DSP2833x_CSMPasswords.asm"
+Finished building: "../libs/DSP2833x_CSMPasswords.asm"
+ 
+Building file: "../libs/DSP2833x_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_CodeStartBranch.d_raw" --obj_directory="libs"  "../libs/DSP2833x_CodeStartBranch.asm"
+Finished building: "../libs/DSP2833x_CodeStartBranch.asm"
+ 
+Building file: "../libs/DSP2833x_DBGIER.asm"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_DBGIER.d_raw" --obj_directory="libs"  "../libs/DSP2833x_DBGIER.asm"
+Finished building: "../libs/DSP2833x_DBGIER.asm"
+ 
+Building file: "../libs/DSP2833x_DisInt.asm"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_DisInt.d_raw" --obj_directory="libs"  "../libs/DSP2833x_DisInt.asm"
+Finished building: "../libs/DSP2833x_DisInt.asm"
+ 
+Building file: "../libs/DSP2833x_CpuTimers.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_CpuTimers.d_raw" --obj_directory="libs"  "../libs/DSP2833x_CpuTimers.c"
+Finished building: "../libs/DSP2833x_CpuTimers.c"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../bsp/bsp_led.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="bsp/bsp_led.d_raw" --obj_directory="bsp"  "../bsp/bsp_led.c"
+Finished building: "../bsp/bsp_led.c"
+ 
+Building file: "../libs/DSP2833x_Adc.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_Adc.d_raw" --obj_directory="libs"  "../libs/DSP2833x_Adc.c"
+Finished building: "../libs/DSP2833x_Adc.c"
+ 
+Building file: "../libs/DSP2833x_DefaultIsr.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_DefaultIsr.d_raw" --obj_directory="libs"  "../libs/DSP2833x_DefaultIsr.c"
+Finished building: "../libs/DSP2833x_DefaultIsr.c"
+ 
+Building file: "../libs/DSP2833x_DMA.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_DMA.d_raw" --obj_directory="libs"  "../libs/DSP2833x_DMA.c"
+Finished building: "../libs/DSP2833x_DMA.c"
+ 
+Building file: "../libs/DSP2833x_ECap.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_ECap.d_raw" --obj_directory="libs"  "../libs/DSP2833x_ECap.c"
+Finished building: "../libs/DSP2833x_ECap.c"
+ 
+Building file: "../libs/DSP2833x_EPwm.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_EPwm.d_raw" --obj_directory="libs"  "../libs/DSP2833x_EPwm.c"
+Finished building: "../libs/DSP2833x_EPwm.c"
+ 
+Building file: "../libs/DSP2833x_EQep.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_EQep.d_raw" --obj_directory="libs"  "../libs/DSP2833x_EQep.c"
+Finished building: "../libs/DSP2833x_EQep.c"
+ 
+Building file: "../libs/DSP2833x_ECan.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_ECan.d_raw" --obj_directory="libs"  "../libs/DSP2833x_ECan.c"
+Finished building: "../libs/DSP2833x_ECan.c"
+ 
+Building file: "../libs/DSP2833x_Gpio.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_Gpio.d_raw" --obj_directory="libs"  "../libs/DSP2833x_Gpio.c"
+Finished building: "../libs/DSP2833x_Gpio.c"
+ 
+Building file: "../libs/DSP2833x_I2C.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_I2C.d_raw" --obj_directory="libs"  "../libs/DSP2833x_I2C.c"
+Finished building: "../libs/DSP2833x_I2C.c"
+ 
+Building file: "../libs/DSP2833x_MemCopy.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_MemCopy.d_raw" --obj_directory="libs"  "../libs/DSP2833x_MemCopy.c"
+Finished building: "../libs/DSP2833x_MemCopy.c"
+ 
+Building file: "../libs/DSP2833x_PieCtrl.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_PieCtrl.d_raw" --obj_directory="libs"  "../libs/DSP2833x_PieCtrl.c"
+Finished building: "../libs/DSP2833x_PieCtrl.c"
+ 
+Building file: "../libs/DSP2833x_Mcbsp.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_Mcbsp.d_raw" --obj_directory="libs"  "../libs/DSP2833x_Mcbsp.c"
+Finished building: "../libs/DSP2833x_Mcbsp.c"
+ 
+Building file: "../libs/DSP2833x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_GlobalVariableDefs.d_raw" --obj_directory="libs"  "../libs/DSP2833x_GlobalVariableDefs.c"
+Finished building: "../libs/DSP2833x_GlobalVariableDefs.c"
+ 
+Building file: "../libs/DSP2833x_PieVect.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_PieVect.d_raw" --obj_directory="libs"  "../libs/DSP2833x_PieVect.c"
+Finished building: "../libs/DSP2833x_PieVect.c"
+ 
+Building file: "../libs/DSP2833x_Sci.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_Sci.d_raw" --obj_directory="libs"  "../libs/DSP2833x_Sci.c"
+Finished building: "../libs/DSP2833x_Sci.c"
+ 
+Building file: "../libs/DSP2833x_Spi.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_Spi.d_raw" --obj_directory="libs"  "../libs/DSP2833x_Spi.c"
+Finished building: "../libs/DSP2833x_Spi.c"
+ 
+Building file: "../libs/DSP2833x_SysCtrl.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_SysCtrl.d_raw" --obj_directory="libs"  "../libs/DSP2833x_SysCtrl.c"
+Finished building: "../libs/DSP2833x_SysCtrl.c"
+ 
+Building file: "../libs/DSP2833x_usDelay.asm"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_usDelay.d_raw" --obj_directory="libs"  "../libs/DSP2833x_usDelay.asm"
+Finished building: "../libs/DSP2833x_usDelay.asm"
+ 
+Building file: "../libs/DSP2833x_Xintf.c"
+Invoking: C2000 Compiler
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="E:/job/MCU/1-GPIO_LED" --include_path="/packages/ti/xdais" --include_path="E:/job/MCU/1-GPIO_LED/bsp" --include_path="E:/job/MCU/1-GPIO_LED/libs" --include_path="E:/job/MCU/1-GPIO_LED/include" --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="libs/DSP2833x_Xintf.d_raw" --obj_directory="libs"  "../libs/DSP2833x_Xintf.c"
+Finished building: "../libs/DSP2833x_Xintf.c"
+ 
+Building target: "1-GPIO_LED.out"
+Invoking: C2000 Linker
+"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_wrap=off --diag_warning=225 --display_error_number -z -m"1-GPIO_LED.map" --stack_size=0x300 --warn_sections -i"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/lib" -i"E:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="1-GPIO_LED_linkInfo.xml" --rom_model -o "1-GPIO_LED.out" "./main.obj" "./bsp/bsp_led.obj" "./libs/DSP2833x_ADC_cal.obj" "./libs/DSP2833x_Adc.obj" "./libs/DSP2833x_CSMPasswords.obj" "./libs/DSP2833x_CodeStartBranch.obj" "./libs/DSP2833x_CpuTimers.obj" "./libs/DSP2833x_DBGIER.obj" "./libs/DSP2833x_DMA.obj" "./libs/DSP2833x_DefaultIsr.obj" "./libs/DSP2833x_DisInt.obj" "./libs/DSP2833x_ECan.obj" "./libs/DSP2833x_ECap.obj" "./libs/DSP2833x_EPwm.obj" "./libs/DSP2833x_EQep.obj" "./libs/DSP2833x_GlobalVariableDefs.obj" "./libs/DSP2833x_Gpio.obj" "./libs/DSP2833x_I2C.obj" "./libs/DSP2833x_Mcbsp.obj" "./libs/DSP2833x_MemCopy.obj" "./libs/DSP2833x_PieCtrl.obj" "./libs/DSP2833x_PieVect.obj" "./libs/DSP2833x_Sci.obj" "./libs/DSP2833x_Spi.obj" "./libs/DSP2833x_SysCtrl.obj" "./libs/DSP2833x_Xintf.obj" "./libs/DSP2833x_usDelay.obj" "../DSP2833x_Headers_nonBIOS.cmd" "../F28335.cmd"  -lrts2800_fpu32.lib -llibc.a 
+<Linking>
+Finished building target: "1-GPIO_LED.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 1-GPIO_LED ****
+
+"E:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: '1-GPIO_LED.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 1-GPIO_LED ****
+
+"E:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: '1-GPIO_LED.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 1-GPIO_LED ****
+
+"E:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: '1-GPIO_LED.out' is up to date.
+
+**** Build Finished ****
