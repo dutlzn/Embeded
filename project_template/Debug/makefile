@@ -13,6 +13,7 @@ ORDERED_OBJS += \
 "./main.obj" \
 "./my_src/key.obj" \
 "./my_src/led.obj" \
+"./my_src/timer.obj" \
 "./src/DSP2833x_ADC_cal.obj" \
 "./src/DSP2833x_Adc.obj" \
 "./src/DSP2833x_CSMPasswords.obj" \
@@ -186,8 +187,8 @@ project_template.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "main.obj" "my_src\key.obj" "my_src\led.obj" "src\DSP2833x_ADC_cal.obj" "src\DSP2833x_Adc.obj" "src\DSP2833x_CSMPasswords.obj" "src\DSP2833x_CodeStartBranch.obj" "src\DSP2833x_CpuTimers.obj" "src\DSP2833x_DBGIER.obj" "src\DSP2833x_DMA.obj" "src\DSP2833x_DefaultIsr.obj" "src\DSP2833x_DisInt.obj" "src\DSP2833x_ECan.obj" "src\DSP2833x_ECap.obj" "src\DSP2833x_EPwm.obj" "src\DSP2833x_EQep.obj" "src\DSP2833x_GlobalVariableDefs.obj" "src\DSP2833x_Gpio.obj" "src\DSP2833x_I2C.obj" "src\DSP2833x_Mcbsp.obj" "src\DSP2833x_MemCopy.obj" "src\DSP2833x_PieCtrl.obj" "src\DSP2833x_PieVect.obj" "src\DSP2833x_Sci.obj" "src\DSP2833x_Spi.obj" "src\DSP2833x_SysCtrl.obj" "src\DSP2833x_Xintf.obj" "src\DSP2833x_usDelay.obj" 
-	-$(RM) "main.d" "my_src\key.d" "my_src\led.d" "src\DSP2833x_Adc.d" "src\DSP2833x_CpuTimers.d" "src\DSP2833x_DMA.d" "src\DSP2833x_DefaultIsr.d" "src\DSP2833x_ECan.d" "src\DSP2833x_ECap.d" "src\DSP2833x_EPwm.d" "src\DSP2833x_EQep.d" "src\DSP2833x_GlobalVariableDefs.d" "src\DSP2833x_Gpio.d" "src\DSP2833x_I2C.d" "src\DSP2833x_Mcbsp.d" "src\DSP2833x_MemCopy.d" "src\DSP2833x_PieCtrl.d" "src\DSP2833x_PieVect.d" "src\DSP2833x_Sci.d" "src\DSP2833x_Spi.d" "src\DSP2833x_SysCtrl.d" "src\DSP2833x_Xintf.d" 
+	-$(RM) "main.obj" "my_src\key.obj" "my_src\led.obj" "my_src\timer.obj" "src\DSP2833x_ADC_cal.obj" "src\DSP2833x_Adc.obj" "src\DSP2833x_CSMPasswords.obj" "src\DSP2833x_CodeStartBranch.obj" "src\DSP2833x_CpuTimers.obj" "src\DSP2833x_DBGIER.obj" "src\DSP2833x_DMA.obj" "src\DSP2833x_DefaultIsr.obj" "src\DSP2833x_DisInt.obj" "src\DSP2833x_ECan.obj" "src\DSP2833x_ECap.obj" "src\DSP2833x_EPwm.obj" "src\DSP2833x_EQep.obj" "src\DSP2833x_GlobalVariableDefs.obj" "src\DSP2833x_Gpio.obj" "src\DSP2833x_I2C.obj" "src\DSP2833x_Mcbsp.obj" "src\DSP2833x_MemCopy.obj" "src\DSP2833x_PieCtrl.obj" "src\DSP2833x_PieVect.obj" "src\DSP2833x_Sci.obj" "src\DSP2833x_Spi.obj" "src\DSP2833x_SysCtrl.obj" "src\DSP2833x_Xintf.obj" "src\DSP2833x_usDelay.obj" 
+	-$(RM) "main.d" "my_src\key.d" "my_src\led.d" "my_src\timer.d" "src\DSP2833x_Adc.d" "src\DSP2833x_CpuTimers.d" "src\DSP2833x_DMA.d" "src\DSP2833x_DefaultIsr.d" "src\DSP2833x_ECan.d" "src\DSP2833x_ECap.d" "src\DSP2833x_EPwm.d" "src\DSP2833x_EQep.d" "src\DSP2833x_GlobalVariableDefs.d" "src\DSP2833x_Gpio.d" "src\DSP2833x_I2C.d" "src\DSP2833x_Mcbsp.d" "src\DSP2833x_MemCopy.d" "src\DSP2833x_PieCtrl.d" "src\DSP2833x_PieVect.d" "src\DSP2833x_Sci.d" "src\DSP2833x_Spi.d" "src\DSP2833x_SysCtrl.d" "src\DSP2833x_Xintf.d" 
 	-$(RM) "src\DSP2833x_ADC_cal.d" "src\DSP2833x_CSMPasswords.d" "src\DSP2833x_CodeStartBranch.d" "src\DSP2833x_DBGIER.d" "src\DSP2833x_DisInt.d" "src\DSP2833x_usDelay.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

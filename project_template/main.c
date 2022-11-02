@@ -1,6 +1,7 @@
 #include "DSP28x_Project.h"
-#include "led.h"
-#include "key.h"
+//#include "led.h"
+//#include "key.h"
+#include "timer.h"
 
 /**
  * 主函数
@@ -20,37 +21,16 @@ int main(void)
     // 初始化中断向量表，中断向量表就是采用指针指向中断服务程序入口地址
     InitPieVectTable();
 
-    led_configuration();
-    key_configuration();
+    led_init();
+    CPU_Timer_Config();
 
-    for(;;) {
-        int i = 0;
-        switch  (i = key_scan()) {
-         case 5: break;
+    EINT; //使能全局中断
+   ERTM; //使能全局实时中断
+   for (;;)
+   {
+   }
 
-         case 1: LED0 = ~LED0;
-                 delay_1ms(1000);
-                 LED0 = ~LED0;
-                 break;
 
-         case 2: LED1 = ~LED1;
-                 delay_1ms(1000);
-                 LED1 = ~LED1;
-                 break;
 
-         case 3: LED2 = ~LED2;;
-                 delay_1ms(1000);
-                 LED2 = ~LED2;
-                 break;
-
-         case 4: LED3 = ~LED3;
-                 delay_1ms(1000);
-                 LED3 = ~LED3;
-                 break;
-
-         default:break;
-
-        }
-    }
 	return 0;
 }

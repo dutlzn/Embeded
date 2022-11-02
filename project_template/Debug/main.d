@@ -27,8 +27,7 @@ main.obj: E:/job/MCU/project_template/inc/DSP2833x_EPwm_defines.h
 main.obj: E:/job/MCU/project_template/inc/DSP2833x_Dma_defines.h
 main.obj: E:/job/MCU/project_template/inc/DSP2833x_I2c_defines.h
 main.obj: E:/job/MCU/project_template/inc/DSP2833x_DefaultIsr.h
-main.obj: E:/job/MCU/project_template/my_inc/led.h
-main.obj: E:/job/MCU/project_template/my_inc/key.h
+main.obj: E:/job/MCU/project_template/my_inc/timer.h
 
 ../main.c: 
 E:/job/MCU/project_template/inc/DSP28x_Project.h: 
@@ -57,5 +56,4 @@ E:/job/MCU/project_template/inc/DSP2833x_EPwm_defines.h:
 E:/job/MCU/project_template/inc/DSP2833x_Dma_defines.h: 
 E:/job/MCU/project_template/inc/DSP2833x_I2c_defines.h: 
 E:/job/MCU/project_template/inc/DSP2833x_DefaultIsr.h: 
-E:/job/MCU/project_template/my_inc/led.h: 
-E:/job/MCU/project_template/my_inc/key.h: 
+E:/job/MCU/project_template/my_inc/timer.h: 
