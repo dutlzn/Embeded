@@ -1,8 +1,0 @@
-
-**** Build of configuration Debug for project 1-GPIO_LED ****
-
-"E:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
- 
-gmake[1]: '1-GPIO_LED.out' is up to date.
-
-**** Build Finished ****
